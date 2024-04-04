@@ -27,11 +27,14 @@ function converter () {
     let paragrafoResultado = document.getElementById("resultado")
     paragrafoResultado.textContent = conversao;
 
-
-    console.log(conversao)
-
-    console.log(moedaOrigem);
-    console.log(moedaDestino);
-    console.log(valorUsuario);
-
 }
+
+    function inverter() {
+        let moeda1 = document.getElementById("moeda1").value;
+        let moeda2 = document.getElementById("moeda2").value;
+
+        document.getElementById("moeda1").value = moeda2;
+        document.getElementById("moeda2").value = moeda1;
+
+
+    }
