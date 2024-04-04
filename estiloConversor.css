@@ -1,0 +1,18 @@
+input, select, button{
+    padding: 10px;
+}
+
+.container{
+    border: 1px solid #aaa;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#titulo {
+    margin-bottom: 50px;
+}
+
+#resultado{
+    margin-top: 50px;
+}
