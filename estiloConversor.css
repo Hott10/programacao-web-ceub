@@ -1,15 +1,69 @@
+
+body{
+    background: linear-gradient(90deg, #bdc1c4, #414040fd) ;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 38px;
+}
+
 input, select, button {
-    padding: 10px;
+    padding: 19px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #59576ec9;
+  color: white;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #d8d7db;
+}
+
+#botao-converter{
+    padding-left: 56px;
+    padding-right: 56px;
+    border-radius: 40px;
+    transition: all 0.3s;
+
+}
+
+#botao-converter:hover {
+    transform: scale(1.1)
+}
+
+select {
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #d8d7db;
+}
+
+input{
+    border-radius: 10px;
+    border: #d8d7db solid 2px;
+    font-size: 15px;
+}
+
+#botao-converter {
+    margin-top: 15px;
 }
 
 .container {
-    border: 1px solid;
-    padding: 50px;
+    padding: 100px;
     text-align: center;
     margin-top: 50px;
-    background-color: rgb(139, 214, 255) ;
-    border-radius: 50px;
-    margin: 0px 200px 0px 200px ;
+    background-color: rgb(56, 54, 54) ;
+    border-radius: 80px;
+    margin: 200px 500px 0px 500px ;
+    box-shadow: 9px 10px 17px rgba(59, 59, 59, 0.568);
+    color: white;
+
 }
 
 .mensagem-usuario {
@@ -17,11 +71,16 @@ input, select, button {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(235, 200, 157);
+    background-color: rgb(164, 194, 174);
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    transform: translateX(50%);
+    max-width: 50% ;
+    border-radius: 50px;
+    margin-bottom: 30px;
 }
 
 .oculto{

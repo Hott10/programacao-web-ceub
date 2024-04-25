@@ -103,9 +103,9 @@ function converter() {
 
     let ResultadoDaConversao = {
         valor: valorUsuario,
-        moeda1 = moedaOrigem,
-        moeda2 = moedaDestino,
-        resultado = conversao
+        moeda1: moedaOrigem,
+        moeda2: moedaDestino,
+        resultado: conversao
     
 
     }
