@@ -30,6 +30,21 @@ if ( localStorage.getItem("aceitoCookie") == "1") {
 }
 
 
+
+function buscarAPI {
+    let url = "https://economia.awesomeapi.com.br/json/USD-BRL";
+    fetch(url).then(function(data) {
+        if(data.status == 200){
+            console.log("retorno ok")
+        }
+        console.log(data);
+    }).catch()
+}
+
+
+
+
+
 function salvaResultadoNoHistorico(conversao){
     localStorage.setItem("histórico", conversao);
 }
